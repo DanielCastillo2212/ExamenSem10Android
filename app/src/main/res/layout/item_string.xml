@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvNumero"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rotationX="0">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/tvContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:rotationX="0"
+        android:padding="10dp"
+        android:layout_marginTop="12dp">
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="Nombre"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageStar"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/star"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
